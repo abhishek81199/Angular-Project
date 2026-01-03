@@ -1,0 +1,71 @@
+Key Achievements & Contributions - 2025
+
+I have contributed to multiple critical projects across the organization, delivering high-quality solutions while collaborating effectively with cross-functional teams. Below is a summary of my key contributions:
+
+==> 2Wheeler - Basic Form Details Enhancement (JIRA: FIN-21386, FIN-21883)
+• Implemented comprehensive validation for PAN and Aadhaar number fields as per government-defined regulations, preventing users from entering invalid characters and enforcing proper length constraints
+• Enhanced form validation by adding mandatory field checks and consent validation on the proceed button, preventing users from proceeding without completing all required fields and providing consent, thereby eliminating error page breaks and improving user experience
+• Fixed consent checkbox state persistence issue when switching between form fields, ensuring proper state management across form interactions
+• Added dynamic input length limits and form validation to prevent invalid data entry
+• Implemented description field validation to ensure data quality and compliance
+• Identified and fixed a critical production issue with checkbox behavior where the component was not functioning correctly after user interaction; debugged and resolved the issue to ensure proper state management
+• Delivered 11 PRs across FPG-UI-SHELL repository (5 merged, 3 open) for 2Wheeler enhancements
+
+==> 1PEMI - ReKYC Flow (JIRA: FIN-19046, FIN-22617, FIN-21999)
+• Led the end-to-end implementation of the ReKYC flow to reduce customer friction when KYC expires, enabling users to confirm their address and validate OTP directly on the cockpit without requiring a full KYC re-submission
+• Took complete ownership of the ReKYC feature by analyzing Figma designs, understanding the complete user flow, and proactively identifying potential flaws in the process to ensure a seamless experience
+• Collaborated with backend teams to design and finalize the V4 contract, considering all possible edge cases and scenarios to ensure robust API integration
+• Implemented data transformation layer for ReKYC API integration, ensuring seamless data flow between frontend and backend systems
+• Disabled KYC upgrade button with custom messaging (JIRA: FIN-22227) to prevent user confusion until ReKYC flow was fully live, improving user experience and reducing support tickets
+• Successfully delivered the feature to production with zero errors, working collaboratively with peers and meeting extremely tight deadlines during BBD (working nights and weekends), resulting in significant growth in the number of users completing ReKYC during the event
+• Created comprehensive design documentation: "[1PEMI] IDFC - Re-Kyc" in Confluence (FPG-MANO space)
+• Delivered 7 merged PRs across fk-cp-fintech repository for this feature, including API integration, data transformation, and UI components
+
+==> BBD (Big Billion Days) Support
+• Contributed to NFR (Non-Functional Requirements) metrics by performing comprehensive regression testing and updating metrics documentation in Confluence
+• Conducted research on custom Chrome vs WebView implementations, documented findings, and shared knowledge with the team, identifying all areas where custom Chrome is used in the UI and evaluating potential migration to WebView for optimization
+
+==> CFA (Credit Facility Application) - Line Based Feature
+• Actively contributed to contract discussions, gaining deep product understanding and end-to-end knowledge of the CFA line-based feature, including how it would improve key business metrics
+• Collaborated with peers to improve prebuilt screens code structure, writing clean and error-free code, resulting in 60-70% reduction in AI-assisted fixes during the current QA phase
+• Delivered multiple PRs including PR #743 (merged) and PR #726 for CFA line-based implementation
+• Fixed test-related issues (PR #739) to ensure code quality and maintainability
+• Reviewed and approved production deployment PRs for CFA feature (fpg-ui-server repository)
+
+==> Technical Excellence & Innovation
+• Leveraged Cursor AI across all implementations to cover maximum possible scenarios, ensuring best-in-class architecture and code quality
+• Utilized AI-powered PR reviews to minimize review comments and improve code quality, resulting in cleaner PRs and faster merge cycles
+
+==> Team Collaboration & Knowledge Sharing
+• Demonstrated strong collaboration by explaining 2Wheeler and 1PEMI flows to peers, facilitating knowledge transfer and enabling team members to work effectively on related features
+• Actively participated in healthy technical discussions and knowledge sharing sessions covering:
+  - New Relic monitoring and observability
+  - Flow pipelines architecture
+  - Nginx UI server configurations
+  - AI implementation strategies in codebase
+  - Best practices for maximizing use of shared components
+
+==> Code Review & Quality Assurance
+• Reviewed 13 PRs across multiple repositories, ensuring code quality and best practices:
+  - Reviewed 5 PRs in FPG-UI-SHELL including bug fixes for NTB, patch hide issues, 2W subvention, and video KYC features
+  - Reviewed 5 PRs in fk-cp-fintech including ReKYC-related fixes and IDFC EMI foreclosure URL updates
+  - Reviewed 1 PR in fk-cp-bellatrix for SBI API tracking
+  - Reviewed 2 production deployment PRs in fpg-ui-server for 2Wheeler and CFA features
+• Provided meaningful feedback and ensured code quality standards across team contributions
+
+==> Overall Metrics (2025)
+• Total PRs Authored: 18 (across 4 repositories)
+  - FPG-UI-SHELL: 11 PRs (5 merged, 3 open, 3 closed)
+  - fk-cp-fintech: 7 PRs (all merged)
+• Total PRs Reviewed: 13 (across 4 repositories)
+  - FPG-UI-SHELL: 5 PRs reviewed
+  - fk-cp-fintech: 5 PRs reviewed
+  - fk-cp-bellatrix: 1 PR reviewed
+  - fpg-ui-server: 2 PRs reviewed
+• Design Documents Created: 1 ([1PEMI] IDFC - Re-Kyc in Confluence)
+• JIRA Tickets Completed: 4
+  - FIN-21386: Continue button handling change (Done)
+  - FIN-21883: FE-Aadhar and pan Length on basic details Page (Closed)
+  - FIN-22617: UI Jira - Screens for Re-KYC journey (Done)
+  - FIN-21999: Deactivate upgrade KYC CTA till Re-KYC is live (Done)
+• Repositories Contributed To: FPG-UI-SHELL, fk-cp-fintech, fk-cp-bellatrix, fpg-ui-server
